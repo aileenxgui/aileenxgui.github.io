@@ -1,0 +1,278 @@
+body{
+	font-family: "Avenir";
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+#navbar {
+	font-family: "Avenir";
+	text-shadow: 2px 1px #696969;
+	font-weight: bold;
+	
+}
+
+.buttons {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+a {
+	padding-left: 10px;
+	color: orange;
+	text-decoration: none;
+
+}
+
+#buttons-left { 
+	font-size: 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	position: absolute; 
+	left: 50px;
+	padding-top: 30px;
+	text-transform: lowercase;
+	letter-spacing: 2px
+	 }
+#buttons-right {
+	font-size: 16px;
+	display: flex;
+	flex-direction: row;
+	align-content: space-between;
+	align-items: flex-start;
+	position: absolute;
+	right: 50px;
+	padding-top: 30px;
+	text-transform: lowercase;
+	letter-spacing: 2px;
+}
+#header {
+	font-size: 32px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-start;
+	padding-top: 20px;
+	letter-spacing: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+img {
+	width: 300px;
+	height: 300px;
+	padding-bottom: 10px;
+}
+
+#projects {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.projects-right {
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 30px;
+}
+
+.projects-left{
+	display: flex;
+	flex-direction: column;
+	padding-top: 30px;
+	padding-right: 7px;
+	padding-left: 7px;
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+.orange {
+	position: relative;
+	width: 300px;
+	height: 300px; 
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.reddish {
+	position: relative;
+	width: 300px;
+	height: 300px; 
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.red{
+	position: relative;
+	width: 300px;
+	height: 300px; 
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.gold{
+	position: relative;
+	width: 300px;
+	height: 300px; 
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.yellow{
+	position: relative;
+	width: 300px;
+	height: 300px; 
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.pink{
+	position: relative;
+	width: 300px;
+	height: 300px; 
+	display: inline-block;
+	padding-bottom: 10px;
+}
+.image{ 
+	display:block;
+	width: 300px;
+	height: 300px;  }
+.overlay{
+	position: absolute;
+	transition: all .3s ease;
+	opacity: 0;
+	background: #eee;
+}
+.text{
+	font-family: "Avenir";
+	font-weight: lighter;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 20px;
+}
+.overlayLeft{
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: #eee;
+}
+
+.orange:hover .overlayLeft{
+	width: 100%;
+	opacity: .5;
+}
+
+.reddish:hover .overlayLeft{
+	width: 100%;
+	opacity: .5;
+}
+
+.red:hover .overlayLeft{
+	width: 100%; 
+	opacity: .5;
+}
+
+.gold:hover .overlayLeft{
+	width: 100%; 
+	opacity: .5;
+}
+
+.yellow:hover .overlayLeft{
+	width: 100%; 
+	opacity: .5;
+}
+
+.pink:hover .overlayLeft{
+	width: 100%; 
+	opacity: .5;
+
+}
+
+
+
+#about{
+	background-color:#FFE4B5;
+	display: flex;
+	flex-direction: column;
+	align-content: space-between;
+}
+.paragraphs {
+	display: flex; 
+	flex-direction: column;
+	padding-left: 300px; 
+	padding-right: 300px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+	
+}
+#profilepic {
+	border-radius: 50%;
+	object-fit: cover;
+	padding-left: 30px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+
+}
+
+
+
+
+
+
+
+.social{
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.footer { 
+	display: flex;
+	flex-direction: row; 
+	justify-content: center;
+	padding-bottom: 30px;
+	padding-top: 30px;
+ }
+
+ #email{
+ 	padding-right:5px;
+ }
+
+ #scroll{
+ 	position: absolute;
+ 	right: 2%;
+ 	transform: translate(-50%, -50%);
+ }
+
+ #scrollbutton {
+ 	height:40px;
+ 	width: 40px;
+ }
+
