@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 	<head>
 		<title>Projects</title>
@@ -39,22 +34,58 @@
 					<nav id="menu">
 						<h2>Menu</h2>
 						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="play.html">Ipsum veroeros</a></li>
-							<li><a href="resume.html">Tempus etiam</a></li>
-							<li><a href="generic.html">Consequat dolor</a></li>
-							<li><a href="elements.html">Elements</a></li>
+							<li><a href="index.html">work</a></li>
+							<li><a href="about.html">about</a></li>
+							<li><a href="https://drive.google.com/file/d/1HIeoezl_FtLxN23ScF94EldqwY72R-N0/view?usp=sharing">resume</a></li>
+							<li><a href="#footer">contact</a></li>
 						</ul>
 					</nav>
 
 				<!-- Main -->
 					<div id="main">
 						<div class="inner">
-							<h1>Analyzing the Gender-Wage Gap</h1>
-							<span class="image main"><img src="images/pic13.jpg" alt="" /></span>
-							<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.</p>
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel venenatis mauris vehicula hendrerit.</p>
-							<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<h1>Data Science Intern @ John Deere Labs, SF 2019</h1>
+							<span class="image main"><img src="images/johndeere.jpg" alt="" /></span>
+							<span class="image">
+								<img src="projectpdfs/johndeere/slide1.png" alt="" width =  100% style = "justify-content:center" />
+							</span>
+							<p>I worked on the Business Insights team within ISG Data Analytics and my manager was Nikhil Agarwal, a data scientist, spending the summer focused on social media sentiment analysis.</p>
+							<p>Sentiment in this context is: also known as opinion mining and is a field within Natural Language Processing that builds systems that try to identify and extract opinions within text. I’ve used methods which express polarity and detect emotion. The overarching purpose with this project is providing another source of insights to help answer questions about customer perception on Deere solutions.</p>
+							<p>Currently, customer sentiment is gauged per team (whether that be enterprise, CPS, UX, marketing) mostly through in-app feedback form submissions or interviews with LUG’s (lead user groups). Social media’s usage at Deere has traditionally belonged to PR groups.</p>
+							<p>This project attempts to bring the two together. This sentiment analysis project aims to provide a comprehensive, quantitative understanding of customers’ perceptions of various ISG digital solutions, and what people are saying about comparable products in other industries. This project is mainly a proof of concept, and is meant to explore what we could gain from understanding wider public perception.</p>
+							<p>My deliverable was to create an interactive web application that would allow groups interested in customer insights to understand what’s being said online. Future potential users might be for example: product managers, user experience researchers, product marketing analysts. The biggest challenge has been in identifying what types of insights would be the most useful, and direct the features of my application to cater to that. </p>
+							<span class="image">
+								<img src="projectpdfs/johndeere/slide2.png" alt="" width =  100% style = "justify-content:center" />
+							</span>
+							<p>This video was a demo of what the application looked like with the Dashboard homepage being large summary type plots. Looking at the actual product, it’s really just a delivery tool for all the plots I generated beforehand. This is the interactive portion potential users can interact with. </p>
+							<span class="image">
+								<img src="projectpdfs/johndeere/slide3.png" alt="" width =  100% style = "justify-content:center" />
+							</span>
+							<p>Here is the general process and timeline of how I planned out my project. I’ve broken it down into 4 phases, the first being acquisition of data which took roughly 2 weeks. The next phase was processing that data by cleaning spelling mistakes, filtering advertisements, and more. That took the whole month of June. Additionally, as I saw holes in the data I would go back to the acquisition step and fill in those gaps.</p>
+							<p>The analysis phase took roughly 3 weeks in July and was about manipulating the data I’d gathered to do some basic sentiment analysis. Playing around with what I got to see what I could answer. The last portion is the delivery portion, which is taking the last couple weeks of June and into August, until the end of my internship on August 16. </p>
+							<p>With that being said, at every step there was always room and time allotted to go back to a previous step and make adjustments as needed. Almost 80% of my time was spent on the acquisition and processing portion of this project. Analysis was relatively quick, with many types of plots being very well documented in R it’s easy to find references for what I want to do.</p>
+							<span class="image">
+								<img src="projectpdfs/johndeere/slide4.png" alt="" width =  100% style = "justify-content:center" />
+							</span>
+							<p>As you probably noted before, I had more sources than just social media data. One assumption I had was that Supplementing Twitter data with other sources wouldn’t substantially skew results, so I added internal CPS (Customer Product Support) data which is full of essentially all the information I wanted from every other source but had been gathered through different methods than public comments. There would be no predictive element to the dashboard (mainly descriptive). The last assumption was that there's no perfect 1-1 comparison between Deere solutions/applications and another industry or company’s “version” but they can be bucketed into the same general categories.</p>
+							<span class="image">
+								<img src="projectpdfs/johndeere/slide5.png" alt="" width =  100% style = "justify-content:center" />
+							</span>
+							<p>Challenges in the first half with acquisition and processing included data sparsity I mentioned earlier, API limits, and combining relevant data sources.From this, the key takeaway is that social media data is messy, a keyword extraction feature would be helpful for the future.</p>
+							<span class="image">
+								<img src="projectpdfs/johndeere/slide6.png" alt="" width =  100% style = "justify-content:center" />
+							</span>
+							<p>Challenges I encountered included a Shiny application learning curve and time consuming data manipulation. I learned through these 2 phases that it pays off to make scripts as clean as possible for the future, and think about ways to make this application live beyond the time I work on it.</p>
+							<span class="image">
+								<img src="projectpdfs/johndeere/slide7.png" alt="" width =  100% style = "justify-content:center" />
+							</span>
+							<p>On the side, I was able to do some quick sentiment analysis of an interesting reddit thread, whose video you see playing here. My manager sent me an opinion thread from Reddit on the wristbands that Deere hands out at tradeshows. Here, a user is outraged that you plug in the wristband to your computer, and it automatically pulls up the Deere webpage. This took a couple hours and was a fun side exploration from the other sentiment analysis I’d been doing.</p>
+							<span class="image">
+								<img src="projectpdfs/johndeere/slide8.png" alt="" width =  100% style = "justify-content:center" />
+							</span>
+							<p>Here are some of the plots I generated. Going clockwise from the top left, you can see top emotions associated with the thread. The pie chart next to that uses a specific lexicon that categorizes the comments as positive or negative. The next pie chart breaks down sentiment proportions from a different lexicon. And the wordcloud represents the top positive words in that thread.</p>
+
+
 						</div>
 					</div>
 
@@ -62,40 +93,14 @@
 					<footer id="footer">
 						<div class="inner">
 							<section>
-								<h2>Get in touch</h2>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<input type="text" name="name" id="name" placeholder="Name" />
-										</div>
-										<div class="field half">
-											<input type="email" name="email" id="email" placeholder="Email" />
-										</div>
-										<div class="field">
-											<textarea name="message" id="message" placeholder="Message"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send" class="primary" /></li>
-									</ul>
-								</form>
-							</section>
-							<section>
-								<h2>Follow</h2>
+								<h2>Get In Touch</h2>
 								<ul class="icons">
-									<li><a href="#" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-dribbble"><span class="label">Dribbble</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-github"><span class="label">GitHub</span></a></li>
-									<li><a href="#" class="icon brands style2 fa-500px"><span class="label">500px</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-phone"><span class="label">Phone</span></a></li>
-									<li><a href="#" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
+									<li><a href="https://twitter.com/aileenxgui" class="icon brands style2 fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="https://www.instagram.com/aileenxgui/" class="icon brands style2 fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://www.linkedin.com/in/aileenxgui/" class="icon brands style2 fa-linkedin"><span class="label">500px</span></a></li>
+									<li><a href="mailto:aileenxgui@gmail.com" class="icon solid style2 fa-envelope"><span class="label">Email</span></a></li>
 								</ul>
 							</section>
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
 						</div>
 					</footer>
 
